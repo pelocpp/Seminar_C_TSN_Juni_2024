@@ -18,6 +18,12 @@
     <ClCompile Include="Program.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Aufgabe_01_Teuflische_Folge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Aufgabe_02_Zinsberechnung.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Notizzettel.txt" />

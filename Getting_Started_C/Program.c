@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+// Vorwärtsdeklaration // Namensbekanntmachung
+
+extern void exercise_teuflische_folge();
+
+extern void exercise_zinsberechnung();
+
 int n = 123;  // Globale Variable
 
 int g_MaximaleTemperatur = 123;  // Globale Variable
@@ -229,5 +235,15 @@ void test_07()
 
 void main()
 {
-    test_07();
+    int wert = 1;
+
+    float ergebnis =  (float) wert / 3;   // 1/3
+
+    int capital = 1000;
+
+    // capital = (capital * 1.05) / 100;
+
+    exercise_teuflische_folge();
+    // exercise_zinsberechnung();
+    // test_07();
 }
