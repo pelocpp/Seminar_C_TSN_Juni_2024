@@ -1,0 +1,138 @@
+
+Grundlagen C
+
+Peter Loos
+
+===================================
+
+Übersetzung eines C-Programms:
+
+a) Grammatik / Syntax
+
+   ==> Compile / Übersetzen
+
+b) Maschinencode einer realen CPU
+
+   ==> Build / Erzeugen
+
+===================================
+
+C:      ca. 1985
+
+ca. 40 Jahre alt ist.
+
+
+Python: ca. 1991 
+
+C++, Java, Pascal, ...........
+
+===================================
+
+C:   Dennis Ritchie
+
+"A programmer knows what he does"
+
+===================================
+
+== Datentypen, Variablen
+
+   int, long, short
+
+   size_t (optimale ganzzahlige Datentyp)
+
+   float, double
+
+   bool: NEIN ( int )
+
+   char
+
+   Zeichenketten (string)
+
+
+
+   Belegen Speicher: Auf welche Weise:
+
+   "Zweierkomplement"
+
+== Kontrollstrukturen
+
+=> Übung
+
+========================================
+
+    ==> Bedingung / Condition
+
+    ==> bool: true / false
+
+    if (a > b) {
+        printf("Bin hier\n");
+    }
+
+    // Wann ist das hier erfüllt:
+    // Wenn a UNGLEICH 0 ist
+    if (a) {
+        printf("Bin hier\n");
+    }
+
+    if (a != 0) {
+        printf("Bin hier\n");
+    }
+
+
+========================================
+
+Debugging: Was ist das ????????????
+
+Es führt das Programm KONTROLLIERT aus.
+
+==> Einzelschritt:
+
+    Eine Zeile ausführen
+
+==> Haltepunkt: 
+
+    Da hält das Programm an.
+
+==================================
+
+Waraus besteht ein gültiger Bezeichner
+in C:
+
+int a;
+
+int temperatur;
+
+int a10;
+
+int maximaler_wert;
+
+int _;
+
+
+=======================================================
+
+Übung:
+
+Teuflische Folge:
+
+Wert n;
+
+int n = 7;
+
+Nächster Wert:
+
+n gerade:         n / 2
+  
+n ungerade:       3 * n + 1
+
+Startwert: 7
+
+7 => 22 => 11  =>  34  =>  17  => 52  => 26  => 13  => 
+40  => 20  => 10  =>  5  => 16  => 8  => 4  => 2  => 1
+
+NICHT BEWIESEN WERDEN:
+
+Für jeden Startwert: Folge ENDLICH .
+
+if (n % 2 == 0)
+
