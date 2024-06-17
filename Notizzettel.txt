@@ -161,3 +161,9 @@ Jahr:  9    Kapital: 1551.33
 Jahr: 10    Kapital: 1628.89
 
 Aus 1000.00 Grundkapital wurden in 10 Jahren 1628.89 Euro.
+
+Ausgabe eine float-Werts:
+
+float geld;
+
+printf ("%f", geld);
