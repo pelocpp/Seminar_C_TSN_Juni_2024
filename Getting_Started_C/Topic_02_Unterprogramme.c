@@ -114,7 +114,7 @@ void tauscheEx(int* a, int* b)
 }
 
 
-void test_unterprogramme()
+void test_unterprogramme_10()
 {
     int x = 10;
     int y = 11;
@@ -124,5 +124,24 @@ void test_unterprogramme()
     tauscheEx (&x, &y);
 
     printf("x=%d - y=%d\n", x, y);
+}
+
+void calculate(int* a, int b)
+{
+    *a = 4;
+    b = b + *a;
+    printf("%d - %d\n", *a, b);
+}
+
+void test_unterprogramme()
+{
+    int a = 3;
+    int b = 5;
+
+    calculate(&a, b);
+    printf("%d - %d\n", a, b);
+
+    calculate(&b, a);
+    printf("%d - %d\n", a, b);
 }
 

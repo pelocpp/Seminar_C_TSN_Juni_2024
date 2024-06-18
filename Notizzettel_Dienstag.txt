@@ -177,3 +177,40 @@ void main()
 }
 
 
+===============================================
+
+Zeichen
+
+char 
+
+===============================================
+
+Zeichenketten
+
+==> i)  Als Feld von char-Variablen
+    ii) Das letzte Zeichen muss ein
+        "Ende"-Zeichen sein: Terminierende 0.
+
+Länge einer Zeichenkette:
+
+Steht NICHT im Speicher // nirgends
+
+Wir müssen diese berechnen 
+
+"wir müssen das letzte Abschlusszeichen suchen"
+
+===============================================
+
+Zeichenketten in C und in Python:
+
+Die beiden Sprachen befinden sich auf einem
+
+unterschiedlichen LEVEL:
+
+C: Ebene Speicher // Adressen // Funktionen
+
+   ===> Leichtgewichtige Klasse:  Struktur
+
+
+Python: Klassen // Methoden // Eigenschaften
+

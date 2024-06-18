@@ -33,6 +33,9 @@
     <ClCompile Include="Topic_02_Unterprogramme.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Topic_03_Zeichenketten.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Notizzettel_Montag.txt" />
