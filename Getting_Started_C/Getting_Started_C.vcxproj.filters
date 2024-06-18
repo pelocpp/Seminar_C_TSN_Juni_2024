@@ -24,8 +24,12 @@
     <ClCompile Include="Aufgabe_02_Zinsberechnung.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Topic_01_Arrays.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\Notizzettel.txt" />
+    <Text Include="..\Notizzettel_Montag.txt" />
+    <Text Include="..\Notizzettel_Dienstag.txt" />
   </ItemGroup>
 </Project>

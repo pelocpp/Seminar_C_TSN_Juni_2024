@@ -1,0 +1,86 @@
+===================================
+
+Grundlagen C
+
+Peter Loos
+
+===================================
+
+Dienstag
+
+===================================
+
+Arrays
+
+(( Listen ))
+
+Was ist ein Feld, Array:
+
+Mehrere Variablen desselben Typs:
+
+Liegen im Speicher DICHT nebeneinander.
+
+===================================
+
+#define   Max   100 
+
+#define basiert auf Textersetzung
+
+Präprozessor
+
+int numbers[Max] = { 0 };
+
+int numbers[100] = { 0 };
+
+Achtung:
+
+#define   Max   100;
+
+int numbers[Max] = { 0 };
+
+===> 
+
+int numbers[100;] = { 0 };
+
+   int Max = 200;
+
+   ==> 
+
+      int 200; = 200;
+
+
+=============================================
+
+Speicher:
+
+a) Statischen Speicher:   FESTE LÄNGE
+
+   VOR DEM START DES PROGRAMMS.
+
+   ==>  .exe
+
+b) Dynamischen Speicher
+
+   WIRD EBENFALLS VOR DEM START DES PROGRAMMS
+   bereit gestellt --- ist aber zunächst
+   vom Programm NICHT Verwendet.
+
+   malloc // free
+   new    // delete
+
+   myList = list()   // da steckt new versteckt drin
+
+Frage:
+
+   Habe ein Feld der Länge 100 ...
+   stelle später fest, brauche aber nur 50
+
+A) Array (fester Länge):  
+
+   Da sind die restlichen 50 Elemente dann verloren.
+
+B) Man kann ein Feld auch mit einer VARIABLEN Länge
+   vereinbaren:
+
+   malloc // free
+
