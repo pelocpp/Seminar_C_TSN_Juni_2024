@@ -103,7 +103,18 @@ void zeichenketten_07()
 
 void string_to_upper(char kette[])
 {
-    // TO BE DONE
+    int index = 0;
+    char ch = kette[index];
+
+    while (ch != 0) {
+
+        if (ch >= 97 && ch <= 122) {
+
+            kette[index] = ch - 32;
+        }
+        
+        index++;
+    }
 }
 
 void zeichenketten()
