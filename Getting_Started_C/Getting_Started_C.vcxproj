@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Aufgabe_01_Teuflische_Folge.c" />
     <ClCompile Include="Aufgabe_02_Zinsberechnung.c" />
+    <ClCompile Include="Aufgabe_03_Maximum.c" />
     <ClCompile Include="Program.c" />
     <ClCompile Include="Topic_01_Arrays.c" />
   </ItemGroup>
