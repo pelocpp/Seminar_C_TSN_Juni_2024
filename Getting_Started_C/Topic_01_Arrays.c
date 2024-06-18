@@ -35,7 +35,7 @@ void test_arrays_02()
     int numbers5[5] = { 0 };
 }
 
-void test_arrays_03()
+void test_arrays()
 {
    // int Max = 200;
 
@@ -56,7 +56,7 @@ void test_arrays_03()
 
 // ================================================
 
-void test_arrays_04()
+void test_arrays_03()
 {
     // WARNUNG
     srand((unsigned int) time(NULL));
@@ -67,7 +67,7 @@ void test_arrays_04()
     int zufall2 = rand();
 }
 
-void test_arrays()
+void test_arrays_04()
 {
     //wert1 = 100;
 

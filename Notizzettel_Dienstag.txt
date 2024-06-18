@@ -84,3 +84,17 @@ B) Man kann ein Feld auch mit einer VARIABLEN Länge
 
    malloc // free
 
+
+   ======================================
+
+   A) Wir legen Felder der Länge 10 ab
+
+   B) Wir belegen diese Felder mit Zufallszahlen vor
+
+   C) Wir geben diese Felder auf der Konsole aus
+
+   D) Wir berechnen von einem derartigen Feld:
+
+   i) den größten Wert
+   ii) den kleinsten Wert
+
