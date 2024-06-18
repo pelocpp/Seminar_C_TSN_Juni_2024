@@ -65,7 +65,7 @@ b) Dynamischen Speicher
    bereit gestellt --- ist aber zunächst
    vom Programm NICHT Verwendet.
 
-   malloc // free
+   malloc // free // =======> Rückgabe: Adresse
    new    // delete
 
    myList = list()   // da steckt new versteckt drin
@@ -97,4 +97,83 @@ B) Man kann ein Feld auch mit einer VARIABLEN Länge
 
    i) den größten Wert
    ii) den kleinsten Wert
+
+======================================
+
+a) Unterprogramm
+
+    == Rückgabetyp: NICHTS // void
+    == Können die return-Anweisung verwenden
+
+b) Funktion
+
+    == Rückgabetyp ungleich void (int, float, etc.)
+    == Verwenden die return-Anweisung:
+          return ergebnis;
+
+
+Procedure // Function // Subroutine
+
+Schnittstelle eines Unterprogramms:
+
+==> Name
+==> Parameter: Name des Parameters und der Typ
+==> Rückgabetyp
+
+Schnittstelle eines Unterprogramms:
+
+Ist "Alles" OHNE die Realisierung (Rumpf)
+
+======================================
+
+NEULAND:
+
+'=': 'int *' differs in levels of indirection from 'int'
+
+======================================
+
+void malDrei(int wert)
+{
+    wert = wert * 3;
+}
+
+void test_unterprogramme_02()
+{
+    int x = 10;
+
+    malDrei(x);
+}
+
+ACHTUNG: 'wert' ist ein ANDERER Speicherplatz als 'x'
+
+ 'wert' ist eine Kopie von 'x'
+
+======================================
+
+Bestimmen Sie die Bildschirmausgabe des nachstehenden Programms,
+ohne das Programm jedoch auszuführen:
+
+#include <stdio.h>
+
+void calculate (int* a, int b)
+{
+    *a = 4;
+    b = b + *a;
+    printf("%d - %d\n", *a, b);
+}
+
+void main()
+{
+    int a = 3;
+    int b = 5;
+
+    calculate(&a, b);
+
+    printf("%d - %d\n", a, b);
+
+    calculate(&b, a);
+
+    printf("%d - %d\n", a, b);
+}
+
 

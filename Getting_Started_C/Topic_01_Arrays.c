@@ -4,7 +4,6 @@
 
 #define   Max   100
 
-
 void test_arrays_01()
 {
     // 5 Zahlen im Speicher

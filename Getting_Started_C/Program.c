@@ -3,10 +3,9 @@
 // Vorwärtsdeklaration // Namensbekanntmachung
 
 extern void exercise_teuflische_folge();
-
 extern void exercise_zinsberechnung();
-
 extern void test_arrays();
+extern void test_unterprogramme();
 
 int n = 123;  // Globale Variable
 
@@ -249,5 +248,5 @@ void main()
     // exercise_zinsberechnung();
     // test_07();
 
-    test_arrays();
+    test_unterprogramme();
 }

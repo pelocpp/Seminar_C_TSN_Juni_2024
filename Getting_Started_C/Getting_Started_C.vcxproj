@@ -132,6 +132,7 @@
     <ClCompile Include="Aufgabe_03_Maximum.c" />
     <ClCompile Include="Program.c" />
     <ClCompile Include="Topic_01_Arrays.c" />
+    <ClCompile Include="Topic_02_Unterprogramme.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Notizzettel_Dienstag.txt" />
