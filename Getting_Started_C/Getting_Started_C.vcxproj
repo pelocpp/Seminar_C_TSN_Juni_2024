@@ -134,9 +134,11 @@
     <ClCompile Include="Topic_01_Arrays.c" />
     <ClCompile Include="Topic_02_Unterprogramme.c" />
     <ClCompile Include="Topic_03_Zeichenketten.c" />
+    <ClCompile Include="Topic_04_Strukturen.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Notizzettel_Dienstag.txt" />
+    <Text Include="..\Notizzettel_Mittwoch.txt" />
     <Text Include="..\Notizzettel_Montag.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

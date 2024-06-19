@@ -1,0 +1,50 @@
+===================================
+
+Grundlagen C
+
+Peter Loos
+
+===================================
+
+Mittwoch
+
+===================================
+
+Struktur  => C
+
+Was ist eine Struktur:
+
+Ein Container für Daten.
+
+// keine Methoden
+
+Array: Viele Daten desselben Typs
+
+Struktur: Viele Daten unterschiedlichen Typs
+
+Beispiel:
+
+Struktur SchülerDerTSN
+
+ ==> Vorname   (Array von Zeichen / Zeichenketten)
+ ==> Nachname  (Array von Zeichen / Zeichenketten)
+ ==> Alter     int
+ ==> Durchschnittsnote: float / double
+
+ Struktur Uhrzeit:
+
+  ==> Stunden, Minuten, Sekunden: int
+
+ Per se nicht: Funktionen
+
+ printTime
+
+ incrementTime (Struktur Time)
+
+ eine Sekunden auf eine Uhrzeit draufzählen
+
+ 8:40:50  =>  8:40:51
+
+  8:40:59 => 8:41:00
+
+    8:59:59  => 09:00:00

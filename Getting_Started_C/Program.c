@@ -7,6 +7,7 @@ extern void exercise_zinsberechnung();
 extern void test_arrays();
 extern void test_unterprogramme();
 extern void zeichenketten();
+extern void strukturen();
 
 int n = 123;  // Globale Variable
 
@@ -237,5 +238,5 @@ void test_07()
 
 void main()
 {
-    zeichenketten();
+    strukturen();
 }
