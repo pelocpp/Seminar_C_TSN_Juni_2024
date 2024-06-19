@@ -1,0 +1,117 @@
+====================================================
+
+Mini Projekt
+------------
+
+==> Keine Zeiger, keine dyn. Daten
+
+==> Struktur, Array, Funktionen
+
+==> Header-File
+
+====================================================
+
+struct Lotto
+{
+    int zahlen[6];
+    int anzahlKugeln;
+};
+
+====================================================
+
+Bitte alle Funktionen, den Typ 'struct Lotto',
+
+für die eine globale Variable 'ziehung'
+
+und Konstanten
+
+#define MaxKugel 6
+
+ein HEADER-File anlegen.
+
+
+====================================================
+
+Zu Beginn:
+
+Alles mit 0 vorbelegt.
+
+1. Kugel wird gezogen:
+
+struct Lotto
+{
+    int zahlen[6];     { 27, 0, 0, 0, 0, 0 }
+    int anzahlKugeln:  1
+};
+
+2. Kugel wird gezogen:
+
+struct Lotto
+{
+    int zahlen[6];     { 27, 12, 0, 0, 0, 0 }
+    int anzahlKugeln:  2
+};
+
+
+Spezifikation der Funktionen:
+
+int naechsteZahl();
+
+    // via rand() eine nächste zufällige Zahl
+    // im Bereich von 1 bis einschl. 49 zurückliefern
+
+int zahlSchonVorhanden(int zahl);
+
+   // Überprüft, ob diese Kugel schon gezogen wurde.
+
+   // Rückgabewert:  1 == vorhanden
+   //                0 == nicht vorhanden
+
+
+
+
+void zahlEinfuegen(int zahl);
+
+   // fügt den Parameter 'zahl' in 
+   // dem Feld 'zahlen' der Struktur
+   // an der richtigen Position ein.
+
+
+void lottoInitialisierung();
+
+   // haben wir eigentlich schon
+   // aber wenn wir eine zweite Ziehung starten wollen
+
+
+void lottoAusgabe();
+
+   // macht folgende Ausgabe:
+
+Ziehung der Lottozahlen:
+1. Kugel: 26
+2. Kugel: 23
+3. Kugel: 1
+4. Kugel: 21
+5. Kugel: 12
+6. Kugel: 5
+
+Könnte aber auch sein:
+
+
+Ziehung der Lottozahlen:
+1. Kugel: 26
+2. Kugel: 23
+3. Kugel: 0
+4. Kugel: 0
+5. Kugel: 0
+6. Kugel: 0
+
+
+Eine letzte Funktion:
+
+void lottoSpielen();
+
+ // Diese Funktion soll 6 Zahlen ziehen und eine
+ // vollständige Ziehung der Lottozahlen abbilden
+
+ // Art 'main'

@@ -39,11 +39,18 @@
     <ClCompile Include="Program.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Topic_05_DynamischeVariablen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Projekt_Lotto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Notizzettel_Montag.txt" />
     <Text Include="..\Notizzettel_Dienstag.txt" />
     <Text Include="..\Notizzettel_Mittwoch.txt" />
+    <Text Include="..\Projekt_Lotto.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Time.h">

@@ -74,3 +74,43 @@ Create an object named p1, and print the value of x:
 
     p1 = new MyClass()
     print(p1.x)
+
+// ==========================================
+
+Speicherbereiche:
+
+===> Lokale Variablen (Funktionen / Unterprogramm)
+
+     = Zwischenergebnisse
+
+===> Globale Variablen
+
+     = Sind immer und überall verfügbar
+     = Problem: Jeder kann sie ändern.
+
+===> Dynamische Variablen
+
+     = Werden dann angelegt, wenn man sie benötigt
+     = Werden dann freigegeben, wenn man sie NICHT mehr benötigt
+
+
+     malloc: memory allocate
+
+     free:   memory wieder freigeben
+
+=>   Es ist KEINE EINFACHE ENTSCHEIDUNG
+     wer den Speicher wieder freigibt.
+
+Wenn er freigegeben wurde, kann er nicht mehr verwendet werden.
+
+
+=================================================
+
+Mini Projekt
+------------
+
+==> Keine Zeiger, keine dyn. Daten
+
+==> Struktur, Array, Funktionen
+
+==> Header-File

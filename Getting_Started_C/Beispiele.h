@@ -11,6 +11,9 @@ extern void test_arrays();
 extern void test_unterprogramme();
 extern void zeichenketten();
 extern void strukturen();
+extern void dynamic();
+
+extern void ziehungDerLottozahlen();
 
 // ==========================
 // global variables
