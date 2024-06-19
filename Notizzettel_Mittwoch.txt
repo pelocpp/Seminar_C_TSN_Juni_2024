@@ -43,8 +43,34 @@ Struktur SchülerDerTSN
 
  eine Sekunden auf eine Uhrzeit draufzählen
 
- 8:40:50  =>  8:40:51
+8:40:50  =>  8:40:51
 
-  8:40:59 => 8:41:00
+8:40:59 => 8:41:00
 
-    8:59:59  => 09:00:00
+8:59:59  => 09:00:00
+
+// ==========================================
+
+Speicherbereiche
+
+===> Lokale Variablen (Funktionen / Unterprogramm)
+
+===> Globale Variablen
+
+===> Dynamische Variablen: Anlegen auf Anforderung
+
+Python:
+
+Example
+Create an object named p1, and print the value of x:
+
+    p1 = MyClass()
+    print(p1.x)
+
+C++ / Java:
+
+Example
+Create an object named p1, and print the value of x:
+
+    p1 = new MyClass()
+    print(p1.x)

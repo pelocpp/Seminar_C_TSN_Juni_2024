@@ -1,13 +1,9 @@
 #include <stdio.h>
 
+#include "Beispiele.h"
+
 // Vorwärtsdeklaration // Namensbekanntmachung
 
-extern void exercise_teuflische_folge();
-extern void exercise_zinsberechnung();
-extern void test_arrays();
-extern void test_unterprogramme();
-extern void zeichenketten();
-extern void strukturen();
 
 int n = 123;  // Globale Variable
 

@@ -1,11 +1,8 @@
 #include <stdio.h> 
 
-struct Time
-{
-    int hours;      // member
-    int minutes;
-    int seconds;
-};
+#include "Time.h"
+
+#include "Beispiele.h"
 
 void printTime(struct Time t)
 {
@@ -30,6 +27,28 @@ void resetTime(struct Time* t)
     //(*t). seconds = 0;
 }
 
+void incrementTime(struct Time* t)
+{
+    t->seconds++;
+
+    if (t->seconds == 60) {
+
+        t->seconds = 0;
+        t->minutes++;
+
+        if (t->minutes == 60) {
+
+            t->minutes = 0;
+            t->hours ++;
+
+            if (t->hours == 24) {
+
+                t->hours = 0;
+            }
+        }
+    }
+}
+
 void strukturen()
 {
     struct Time jetzt;
@@ -41,10 +60,11 @@ void strukturen()
     printTime(jetzt);
 
     struct Time dann = { 10, 30, 0 };
-    
     printTime(dann);
 
     resetTime(&dann);
+    printTime(dann);
 
+    incrementTime(&dann);
     printTime(dann);
 }

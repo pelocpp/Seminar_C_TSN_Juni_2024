@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Program.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Aufgabe_01_Teuflische_Folge.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -39,10 +36,21 @@
     <ClCompile Include="Topic_04_Strukturen.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Program.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Notizzettel_Montag.txt" />
     <Text Include="..\Notizzettel_Dienstag.txt" />
     <Text Include="..\Notizzettel_Mittwoch.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Beispiele.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
