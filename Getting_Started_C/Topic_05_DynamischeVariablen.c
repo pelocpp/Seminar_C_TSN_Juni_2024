@@ -1,6 +1,6 @@
 #include <stdio.h> 
 #include <stdlib.h> 
-
+#include <string.h> 
 
 void dynamic_01()
 {
@@ -39,14 +39,14 @@ void dynamic_02()
 
     tueWasMitdemSpeicher(pi);
 
-    getch();
+    getchar();
 
     *pi = 3;   // Kann gehen, ist aber FALSCH !!!
 }
 
 void dynamic_03()
 {
-    int numbers[10];
+    // int numbers[10];
 
     int anzahlPlaetze = 0;
     scanf_s("%d", &anzahlPlaetze);
@@ -63,7 +63,6 @@ void dynamic_03()
 
     free(start);
 }
-
 
 void dynamic()
 {

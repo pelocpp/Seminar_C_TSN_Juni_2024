@@ -45,6 +45,9 @@
     <ClCompile Include="Projekt_Lotto.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Projekt_Lotto_Musterloesung.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Notizzettel_Montag.txt" />
@@ -57,6 +60,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Beispiele.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Projekt_Lotto_Musterloesung.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

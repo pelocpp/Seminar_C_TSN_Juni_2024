@@ -4,7 +4,6 @@
 #define TRUE  1
 #define FALSE 0
 
-
 // Strukturtyp
 struct Lotto
 {
@@ -14,7 +13,7 @@ struct Lotto
 };
 
 // globale Variable für eine Ziehung
-struct Lotto ziehung = { { 0 }, 0 };
+static struct Lotto ziehung = { { 0 }, 0 };
 
 
 void testDoppelteLottozahlen()

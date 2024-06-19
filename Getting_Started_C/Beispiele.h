@@ -14,6 +14,7 @@ extern void strukturen();
 extern void dynamic();
 
 extern void ziehungDerLottozahlen();
+extern void ziehungDerLottozahlen_Loesung();
 
 // ==========================
 // global variables

@@ -234,5 +234,5 @@ void test_07()
 
 void main()
 {
-    ziehungDerLottozahlen();
+    ziehungDerLottozahlen_Loesung();
 }

@@ -132,6 +132,7 @@
     <ClCompile Include="Aufgabe_03_Maximum.c" />
     <ClCompile Include="Program.c" />
     <ClCompile Include="Projekt_Lotto.c" />
+    <ClCompile Include="Projekt_Lotto_Musterloesung.c" />
     <ClCompile Include="Topic_01_Arrays.c" />
     <ClCompile Include="Topic_02_Unterprogramme.c" />
     <ClCompile Include="Topic_03_Zeichenketten.c" />
@@ -146,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Beispiele.h" />
+    <ClInclude Include="Projekt_Lotto_Musterloesung.h" />
     <ClInclude Include="Time.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
